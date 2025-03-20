@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment 2</title>
+
+</head>
+
+<body>
+    <h1>HTML5 Elements Implementation</h1>
+
+    <!-- Ordered List with Roman Numerals -->
+    <h2>Languages</h2>
+    <ol type="I">
+        <li>Python</li>
+        <li>Java</li>
+        <li>Ruby</li>
+        <li>JavaScript</li>
+        <li>R</li>
+    </ol>
+
+    <!-- External Image from Pexels -->
+    <h2>External Image</h2>
+    <img src="https://www.pexels.com/photo/a-man-surveying-the-area-5802822/" alt="Sample Image from Pexels" width="600"
+        height="700">
+
+    <!-- Contacts Table -->
+    <h2>Contacts Table</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Kim</td>
+            <td>Thompson Rd, Kilimani</td>
+            <td>+254723875239</td>
+            <td>kim@dunia.com</td>
+        </tr>
+        <tr>
+            <td>Tom</td>
+            <td>Tsavo Rd, Karen</td>
+            <td>+254713946317</td>
+            <td>tom@dunia.com</td>
+        </tr>
+        <tr>
+            <td>Sam</td>
+            <td>Oak St, Kileleshwa</td>
+            <td>+254791749254</td>
+            <td>sam@dunia.com</td>
+        </tr>
+        <tr>
+            <td>Ian</td>
+            <td>Pine St, Red Hill</td>
+            <td>+254719835826</td>
+            <td>ian@dunia.com</td>
+        </tr>
+        <tr>
+            <td>Ann</td>
+            <td>Maple St, Muthaiga</td>
+            <td>+254752946194</td>
+            <td>ann@dunia.com</td>
+        </tr>
+    </table>
+
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter a password" required><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <!-- Dropdown -->
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="">Select a country</option>
+            <option value="Kenya">Kenya</option>
+            <option value="Tanzania">Tanzania</option>
+            <option value="Nigeria">Nigeria</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            <option value="Canada">Canada</option>
+            <option value="Australia">Australia</option>
+        </select><br><br>
+
+        <!-- Radio Buttons -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other" required>
+        <label for="other">Other</label><br><br>
+
+        <!-- Checkboxes -->
+        <label>Interests:</label>
+        <input type="checkbox" id="coding" name="interests" value="coding">
+        <label for="coding">Coding</label>
+        <input type="checkbox" id="music" name="interests" value="music">
+        <label for="music">Music</label>
+        <input type="checkbox" id="sports" name="interests" value="sports">
+        <label for="sports">Sports</label><br><br>
+
+        <button type="submit">Register</button>
+    </form>
+
+</body>
+
+</html>
